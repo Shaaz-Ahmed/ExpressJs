@@ -1,0 +1,10 @@
+const express = require('express');
+const app = express();
+
+app.get("/", (req, res) =>{
+    res.send("Hellp from the server im using port number 90000");
+});
+
+app.listen(9000, ()=>{
+    console.log("Listening from the port number 9000");
+});
