@@ -1,0 +1,10 @@
+Express js is a node js framework its a most famous popular framework.
+Express js is web application framework that provide you with a simple API to build website web apps and backend
+
+Pre requisite: You should have installed node on you're machine 
+
+Express lies in MERN full stack it is used to make the website robust, maintainable , etc.
+
+Installation:
+> npm install express --save
+> npm init -y
