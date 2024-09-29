@@ -1,0 +1,37 @@
+// const express = require('express');
+// const app = express();
+
+// app.get("/", (req, res) => {
+//     res.send("Welcome to the home page of website");
+// });
+
+// app.get("/about", (req, res) => {
+//     res.send("Welcome to the about us page of website");
+// });
+
+// app.get("/contact", (req, res) => {
+//     res.send("Welcome to the contact us page of website");
+// });
+
+// app.listen(4000, () => {
+//     console.log("Listening to the port 4000");
+// });
+
+const express = require('express');
+const app = express();
+
+ app.get("/", (req, res) => {
+     res.send("Welcome to the home page of website");
+ });
+
+ app.get("/about", (req, res) => {
+     res.send("Welcome to the about us page of website");
+ });
+
+ app.get("/contact", (req, res) => {
+     res.send("Welcome to the contact us page of website");
+ });
+
+ app.listen(4000, () => {
+     console.log("Listening to the port 4000");
+ });
