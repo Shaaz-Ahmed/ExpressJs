@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 // About route (GET request to "/about")
-app.get('/about', (req, res) => {
+app.get('/about', (req, res) => {                  // Passing json data as response
   res.send({
 id: 01,
 name: "Shaaz"
