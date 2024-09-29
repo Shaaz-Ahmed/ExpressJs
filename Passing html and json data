@@ -1,0 +1,31 @@
+const express = require('express'); // Importing express
+const app = express();              // Creating an express app
+
+// Home route (GET request to "/")
+app.get('/', (req, res) => {
+  res.send('<h1>Welcome to the homepage! </h1>');   // Passing html data as resposne
+});
+
+// About route (GET request to "/about")
+app.get('/about', (req, res) => {
+  res.send({
+id: 01,
+name: "Shaaz"
+  });
+});
+
+// Contact route (GET request to "/contact")
+app.get('/contact', (req, res) => {
+  res.send('This is the contact page.');
+});
+
+// Route with parameters (GET request to "/user/:name")
+app.get('/user/:name', (req, res) => {
+  const userName = req.params.name;  // Accessing the URL parameter
+  res.send(`Hello, ${userName}!`);
+});
+
+// Starting the server on port 3000
+app.listen(3000, () => {
+  console.log('Server is running on http://localhost:3000');
+});
