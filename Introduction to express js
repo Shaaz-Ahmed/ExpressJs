@@ -1,5 +1,7 @@
 Express js is a node js framework its a most famous popular framework.
 Express js is web application framework that provide you with a simple API to build website web apps and backend
+The main use of this express js is to simplify backedn server.
+It is easy to build API 
 
 Pre requisite: You should have installed node on you're machine 
 
